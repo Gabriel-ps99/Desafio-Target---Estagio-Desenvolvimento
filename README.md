@@ -38,7 +38,7 @@ O código em Java Desafio03, apresenta uma série de sequências numéricas e ca
 
 a) 1, 3, 5, 7, ___ - O próximo elemento é o último elemento mais 2. <br>
 b) 2, 4, 8, 16, 32, 64, ____ - O próximo elemento é o último elemento multiplicado por 2. <br>
-c) 0, 1, 4, 9, 16, 25, 36, ____ - O próximo elemento é o último elemento mais 11, seguindo a soma do próximo número ímpar. <br>
+c) 0, 1, 4, 9, 16, 25, 36, ____ - O próximo elemento é o último elemento mais 13, seguindo a soma do próximo número ímpar. <br>
 d) 4, 16, 36, 64, ____ - O próximo elemento é calculado usando a raiz quadrada do último elemento mais 2, elevado ao quadrado. <br>
 e) 1, 1, 2, 3, 5, 8, ____ - Esta sequência segue a lógica da sequência de Fibonacci, onde cada número é a soma dos dois anteriores. <br>
 f) 2, 10, 12, 16, 17, 18, 19, ____ - O próximo elemento é 200, seguindo a lógica da letra inicial de cada número na sequência. <br>
