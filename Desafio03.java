@@ -37,7 +37,7 @@ public class Desafio03 {
 
     // Função para encontrar o próximo elemento da sequência c)
     public static int proximoElementoSequenciaC(int ultimoElemento) {
-        return ultimoElemento + 11; // Soma do próximo número ímpar
+        return ultimoElemento + 13; // Soma do próximo número ímpar
     }
 
     // Função para encontrar o próximo elemento da sequência d)

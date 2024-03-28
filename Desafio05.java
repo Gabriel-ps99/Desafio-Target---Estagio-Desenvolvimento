@@ -2,19 +2,37 @@ import java.util.Scanner;
 
 public class Desafio05 {
     public static void main(String[] args) {
+        // Criando um Scanner para entrada de dados
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Digite uma string: ");
-        String inputString = scanner.nextLine();
 
-        String reversedString = inverterString(inputString);
-        System.out.println("String invertida: " + reversedString);
+        // Solicitando ao usuário que informe a string
+        System.out.print("Digite a string a ser invertida: ");
+        String original = scanner.nextLine();
 
+        // Invertendo a string
+        String invertida = inverterString(original);
+
+        // Exibindo a string invertida
+        System.out.println("String original: " + original);
+        System.out.println("String invertida: " + invertida);
+
+        // Fechando o Scanner
         scanner.close();
     }
 
+    // Método para inverter a string sem usar reverse
     public static String inverterString(String str) {
-        StringBuilder reversed = new StringBuilder(str);
-        reversed.reverse();
-        return reversed.toString();
+        // Convertendo a string em um array de caracteres
+        char[] chars = str.toCharArray();
+
+        // Invertendo os caracteres no array manualmente
+        for (int i = 0, j = chars.length - 1; i < j; i++, j--) {
+            char temp = chars[i];
+            chars[i] = chars[j];
+            chars[j] = temp;
+        }
+
+        // Convertendo o array de volta para uma string
+        return new String(chars);
     }
 }
